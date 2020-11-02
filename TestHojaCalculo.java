@@ -2,20 +2,11 @@
 /**
  *  Clase con código para probar el resto de clases
  * 
- * @author - 
+ * @author -Jhon Vera   
  *  
  */
 public class TestHojaCalculo
 {
-    //ATRIBUTOS
-    //CONSTANTES 
-    //VARIABLES
-    /**
-     * Constructor  
-     */
-    public TestHojaCalculo()    {
-
-    }
 
     /**
      * Define y crea todos los objetos necesarios para obtener
