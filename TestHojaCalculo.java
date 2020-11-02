@@ -7,7 +7,9 @@
  */
 public class TestHojaCalculo
 {
-
+    //ATRIBUTOS
+    //CONSTANTES 
+    //VARIABLES
     /**
      * Constructor  
      */
@@ -24,7 +26,7 @@ public class TestHojaCalculo
      */
     public void test1() {
            
-
+        
         
 
     }

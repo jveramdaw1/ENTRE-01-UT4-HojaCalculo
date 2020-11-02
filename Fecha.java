@@ -4,7 +4,7 @@
  *  
  *  @author - 
  */
-public class Fecha
+public class Fecha 
 {
     private int dia;
     private int mes;
@@ -74,9 +74,9 @@ public class Fecha
      * Devuelve una copia exacta al objeto actual
      */
     public Fecha obtenerCopia() {
-         return null;
-
+        return new Fecha(dia, mes, año);
     }
+    
 
     /**
      * 
