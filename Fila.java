@@ -94,12 +94,12 @@ public class Fila
      */
     public String toString() {
         if(getBeneficio()<0){
-            String patron="\n%8s%15s%15.2f%15.2f%15.2f€ **";
+            String patron="\n%8s%15s%16.2f€%15.2f€%15.2f€ **";
             String resultado=String.format(patron,id,fecha,ingresos,gastos,getBeneficio());
             return resultado;
         }
         else{
-            String patron="\n%8s%15s%15.2f%15.2f%15.2f€";
+            String patron="\n%8s%15s%16.2f€%15.2f€%15.2f€";
             String resultado=String.format(patron,id,fecha,ingresos,gastos,getBeneficio());
             return resultado;
         }
